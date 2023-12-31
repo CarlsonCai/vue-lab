@@ -2,23 +2,24 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    node: true,
+    node: true
   },
   extends: [
-    "plugin:vue/vue3-essential",
-    "plugin:vue/vue3-strongly-recommended",
-    "plugin:vue/vue3-recommended",
-    "@vue/prettier",
+    'plugin:vue/vue3-essential',
+    'plugin:vue/vue3-strongly-recommended',
+    'plugin:vue/vue3-recommended',
+    '@vue/prettier'
   ],
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module'
   },
   rules: {
-    indent: ["error", 2, { SwitchCase: 1 }],
-    "no-unused-vars": "off",
-    "no-console": "off",
-    "no-debugger": "off",
-    "no-empty": ["error", { allowEmptyCatch: true }],
-  },
-};
+    indent: ['error', 2, { SwitchCase: 1 }],
+    'no-unused-vars': 'off',
+    'no-console': 'off',
+    'no-debugger': 'off',
+    'vue/multi-word-component-names': 'off',
+    'no-empty': ['error', { allowEmptyCatch: true }]
+  }
+}
