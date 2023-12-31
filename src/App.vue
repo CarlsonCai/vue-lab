@@ -6,6 +6,10 @@
   </div>
 </template>
 
+<script setup>
+const sideNav = sideNavStore()
+</script>
+
 <style lang="sass">
 .container
   display: flex

@@ -1,12 +1,19 @@
 <template>
   <div class="header">
     <div class="menu-container">
-      <img src="@/assets/icon/burger-menu.svg" alt="Menu Icon" class="icon" />
+      <img
+        src="@/assets/icon/burger-menu.svg"
+        alt="Menu Icon"
+        class="icon"
+        @click.stop="sideNav.toggleSidebar()"
+      />
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const sideNav = sideNavStore()
+</script>
 
 <style lang="sass" scoped>
 .header

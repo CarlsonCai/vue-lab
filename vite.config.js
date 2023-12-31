@@ -10,7 +10,7 @@ export default ({ mode }) => {
     Components({ dirs: 'src/components' }),
     AutoImport({
       imports: ['vue'],
-      dirs: ['src/composables']
+      dirs: ['src/store']
     })
   ]
   return defineConfig({
