@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <div class="menu-container">
+    <div>
       <img
         src="@/assets/icon/burger-menu.svg"
         alt="Menu Icon"
@@ -23,7 +23,6 @@ const sideNav = sideNavStore()
   padding-right: 10px;
   height: 35px;
 }
-
 .icon {
   width: 20px;
   height: 20px;

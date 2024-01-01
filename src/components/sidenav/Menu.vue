@@ -4,7 +4,7 @@
       v-for="item in items"
       :key="item.key"
       class="menu-item"
-      :class="{ 'menu-item': true, selected: item.isExpanded }"
+      :class="{ selected: item.isExpanded }"
       @click.stop="toggleExpand(item)"
     >
       <span :class="{ 'selected-text': item.isExpanded }">{{ item.text }}</span>
