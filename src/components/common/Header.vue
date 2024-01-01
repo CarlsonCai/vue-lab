@@ -15,14 +15,17 @@
 const sideNav = sideNavStore()
 </script>
 
-<style lang="sass" scoped>
-.header
-  display: flex
-  align-items: center
-  justify-content: end
-  padding-right: 10px
-  height: 35px
-.icon
-  width: 20px
-  height: 20px
+<style lang="scss" scoped>
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 10px;
+  height: 35px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
 </style>

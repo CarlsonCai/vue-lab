@@ -18,7 +18,7 @@ const sideNav = sideNavStore()
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(0, 0, 0, 0.9);
   width: 200px;
 }
 .fade-enter-active,
