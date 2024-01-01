@@ -31,7 +31,6 @@ const grid = ref([
   display: flex;
   flex-direction: column;
   justify-content: center;
-  overflow: hidden;
   padding: 5px;
 }
 

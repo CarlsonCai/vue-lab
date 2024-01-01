@@ -43,7 +43,6 @@ const closeOtherMenus = (items, clickedItem) => {
   color: #ffff;
   margin-top: 10px;
 }
-
 .menu-item {
   padding: 15px 15px 15px 25px;
   white-space: nowrap;
